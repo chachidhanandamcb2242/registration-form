@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="registrationform.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Registration Form</h1>
+    <div class="container">
+        <form action="http://127.0.0.1:1000/sign_up" method="post">
+            <div class="boxa">
+                <div class="row">
+                     <div class="col-25">
+                          <label for="Username">Username</label>
+                     </div>
+                     <div class="col-75">
+                         <input type="text" name="name" placeholder="name" required/><br>
+                     </div>
+                </div>
+            </div>
+            <div class="boxb">
+                <div class="row">
+                     <div class="col-25">
+                          <label for="Email">Email</label>
+                     </div>
+                     <div class="col-75">
+                          <input type="email" name="email" placeholder="email" required/><br>
+                      </div>
+                </div>
+            </div>
+            <div class="boxc">
+                <div class="row">
+                  <div class="col-25">
+                     <label for="Password">Password</label>
+                   </div>
+                  <div class="col-75">
+                     <input type="password" name="password" placeholder="password" required/><br>
+                  </div>
+                </div>
+            </div>
+            <div class="boxd">
+                <div class="row">
+                  <div class="col-25">
+                     <label for="Phone">Phone</label>
+                  </div>
+                  <div class="col-75">
+                      <input type="number" name="phone" placeholder="phone" required/><br>
+                 </div>
+                </div>
+            </div><br><br><br>
+            <input type="submit" value="submit"/><br>
+        </form>
+    </div>
+</body>
+</html>
